@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.text-box, .image-box {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffccdd;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text-box {
+    border-radius: 80px 80px 50px 50px;
+}
+
+.image-box {
+    border-radius: 50px 50px 80px 80px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 30px;
+}
